@@ -1,0 +1,7 @@
+services:
+  portfolio-app:
+    # Uses the standalone server.js built by Next.js
+    command: node server.js
+    restart: always
+    environment:
+      - NODE_ENV=production
