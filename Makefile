@@ -15,4 +15,4 @@ down:
 # Wipe volumes and containers (The 'Nuclear' reset)
 clean:
 	sudo docker-compose down -v
-	rm -rf .next node_modules
+	sudo rm -rf .next node_modules
