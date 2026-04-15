@@ -26,6 +26,7 @@ export default function Home() {
         <ambientLight intensity={0.5} />
         <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} castShadow />
         <pointLight position={[10, 5, 5]} intensity={1000.5} color="#E47025" />
+        <pointLight position={[-10, 5, 5]} intensity={1000.5} color="#E47025" />
         <Suspense fallback={null}>
           <CassetteModel isFlipped={isFlipped} />
           <ContactShadows position={[0, -1.5, 0]} opacity={0.75} scale={10} blur={2.5} far={4} />
